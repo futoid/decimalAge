@@ -51,7 +51,7 @@ const Age = () => {
     return (
         <div>
             <div className=" text-4xl md:text-8xl font-bold text-[#eeeeee]">
-                <p className="bg-[#59ef4f] blur-[4rem] md:blur-[12rem] absolute">
+                <p className="bg-[#a8a8a8] blur-[4rem] md:blur-[12rem] absolute">
                     {finalAge}
                 </p>
                 {finalAge}
