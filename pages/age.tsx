@@ -72,7 +72,7 @@ const Age = () => {
                     </div>
                 }
             </div>
-            <div className=" flex justify-end pb-10 pr-10">
+            <div className=" flex justify-end pb-10 pr-6 lg:pr-10">
                 {!edit ? (
                     <div className="bg-[#a8a8a8] p-3 rounded-md" onClick={() => setEdit(1)}>
                         <CiCalendarDate size={40} color="black" />
