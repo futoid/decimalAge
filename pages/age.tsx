@@ -54,7 +54,7 @@ const Age = () => {
             <div className=" flex flex-col justify-center h-screen">
                 {edit &&
                     <div className=" flex flex-col items-center p-10">
-                        <h1 className=" font-bold text-4xl  text-[#eeeeee] pb-8">Enter Date</h1>
+                        <h1 className=" font-bold text-4xl  text-[#eeeeee] pb-8">Enter Date  <span className=" italic text-[#454545]">DD/MM/YYYY</span> </h1>
                         <div className="flex flex-col gap-8 w-full lg:flex-row lg:justify-center">
                             <input type="number" placeholder="Date" className=" outline-none bg-[#272727] p-3 rounded-lg font-semibold text-lg text-white focus:shadow-[#505050] focus:shadow-md focus:transition focus:mb-1" onChange={(e) => setDate(Number(e.target.value))}/>
                             <input type="number" placeholder="Month" className=" outline-none bg-[#272727] p-3 rounded-lg font-semibold text-lg text-white focus:shadow-[#505050] focus:shadow-md focus:transition focus:mb-1" onChange={(e) => setMonth(Number(e.target.value))} />
