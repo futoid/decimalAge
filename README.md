@@ -1,5 +1,5 @@
 # Realtime Age
-Build using NextJS, asynchronous Javascript, concept of hooks and maths  
+Built using NextJS, asynchronous Javascript, concept of hooks and maths  
 ## [Try it! Here](https://realtimeage.vercel.app/)
 
 ## Installation guide
